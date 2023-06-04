@@ -52,7 +52,12 @@ body{
     position: absolute;
 }
 
-.wrapper ul ul ul ul{
+
+.wrapper ul ul li:hover > ul{
+    display: block;
+}
+
+.wrapper ul ul ul > ul{
     margin-left: 170px;
     top: 0;
     position: absolute;
